@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+
+<body>
+  <h1>Formularios</h1>
+  <p>
+    Los formularios web son una poderosa herramienta para interactuar con usuarios — comúnmente son usados ​​para
+    obtener información de los usuarios, o permitirles controlar la interfaz de usuario.
+  </p>
+  <form action="./recibido.html">
+    <div>
+      <label for="nameElem">Ingresar Nombre: </label>
+      <input id="nameElem" type="text" placeholder="Name" autocomplete="off" required maxlength="12">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="lastNamElem">Ingresar Apoellido</label>
+      <input id="lastNamElem" type="text" placeholder="Last name" autocomplete="off" required maxlength="12">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="email">Ingresdar Email: </label>
+      <input type="email" id="email" placeholder="Email" required>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="password">Ingrese Password: </label>
+      <input type="password" placeholder="Password" id="password">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="edad">Ingrese Edad: </label>
+      <input type="number" id="edad" placeholder="Edad">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="tel">Ingrese Telefono: </label>
+      <input type="tel" id="tel" placeholder="Telefono">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="descrp">Ingrese Descripcion: </label>
+      <div>
+        <textarea id="descrp" placeholder="Deja tu coment..." cols="30" rows="6"></textarea>
+      </div>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="edad">Ingrese3 su Edad: </label>
+      <select id="edad">
+        <option value="0">Menos de 10</option>
+        <option value="1">Menos de 20</option>
+        <option value="2">Menos de 30</option>
+      </select>
+    </div>
+
+    <br>
+
+    <div>
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+</body>
+
+</html>
